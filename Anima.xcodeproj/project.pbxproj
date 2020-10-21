@@ -11,6 +11,9 @@
 		EFC1661A2540946200E40260 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC166192540946200E40260 /* ContentView.swift */; };
 		EFC1661C2540946400E40260 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFC1661B2540946400E40260 /* Assets.xcassets */; };
 		EFC1661F2540946400E40260 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFC1661E2540946400E40260 /* Preview Assets.xcassets */; };
+		EFC166282540CB0700E40260 /* Gestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC166272540CB0700E40260 /* Gestures.swift */; };
+		EFC1662B2540D27400E40260 /* ViewAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC1662A2540D27400E40260 /* ViewAnimation.swift */; };
+		EFC1662E2540D7A900E40260 /* CustomAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC1662D2540D7A900E40260 /* CustomAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		EFC1661B2540946400E40260 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFC1661E2540946400E40260 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EFC166202540946400E40260 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFC166272540CB0700E40260 /* Gestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gestures.swift; sourceTree = "<group>"; };
+		EFC1662A2540D27400E40260 /* ViewAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAnimation.swift; sourceTree = "<group>"; };
+		EFC1662D2540D7A900E40260 /* CustomAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 			children = (
 				EFC166172540946200E40260 /* AnimaApp.swift */,
 				EFC166192540946200E40260 /* ContentView.swift */,
+				EFC166272540CB0700E40260 /* Gestures.swift */,
+				EFC1662A2540D27400E40260 /* ViewAnimation.swift */,
+				EFC1662D2540D7A900E40260 /* CustomAnimation.swift */,
 				EFC1661B2540946400E40260 /* Assets.xcassets */,
 				EFC166202540946400E40260 /* Info.plist */,
 				EFC1661D2540946400E40260 /* Preview Content */,
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFC166282540CB0700E40260 /* Gestures.swift in Sources */,
+				EFC1662B2540D27400E40260 /* ViewAnimation.swift in Sources */,
 				EFC1661A2540946200E40260 /* ContentView.swift in Sources */,
 				EFC166182540946200E40260 /* AnimaApp.swift in Sources */,
+				EFC1662E2540D7A900E40260 /* CustomAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
